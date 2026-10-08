@@ -2,9 +2,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "kolhapur-ev-navigator",
   "compatibility_date": "2024-09-23",
+  "build": {
+    "command": "npm run build"
+  },
   "assets": {
     "directory": "./dist",
-    "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "single-page-application"
   }
