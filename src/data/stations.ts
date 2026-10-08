@@ -1,0 +1,146 @@
+import { Station, LocationPreset } from '../types';
+
+export const LOCATION_PRESETS: LocationPreset[] = [
+  {
+    id: 'kolhapur_center',
+    name: 'Kolhapur City Center',
+    label: 'Kolhapur City',
+    area: 'Central Kolhapur (CBS/Station)',
+    coords: [16.7050, 74.2433],
+    description: 'Central Bus Stand & Railway Station area'
+  },
+  {
+    id: 'kodoli_chowk',
+    name: 'Kodoli Main Chowk',
+    label: 'Kodoli',
+    area: 'Kodoli / Warnanagar',
+    coords: [16.8906, 74.2045],
+    description: 'Main Bazaar & ST Stand area'
+  },
+  {
+    id: 'talsande_center',
+    name: 'Talsande Village Center',
+    label: 'Talsande',
+    area: 'Talsande / DY Patil Tech area',
+    coords: [16.8420, 74.2670],
+    description: 'Highway link & Village junction'
+  },
+  {
+    id: 'rankala_lake',
+    name: 'Rankala Lake Promenade',
+    label: 'Rankala',
+    area: 'West Kolhapur',
+    coords: [16.6908, 74.2141],
+    description: 'Historic lake and tourist promenade'
+  },
+  {
+    id: 'tarabai_park',
+    name: 'Tarabai Park / Circuit House',
+    label: 'Tarabai Park',
+    area: 'North Kolhapur',
+    coords: [16.7118, 74.2461],
+    description: 'Commercial & hospitality hub'
+  }
+];
+
+export const INITIAL_STATIONS: Station[] = [
+  {
+    id: 'st-1',
+    name: 'Tata Power EZ Charge - Tarabai Park',
+    lat: 16.7118,
+    lng: 74.2461,
+    chargerType: 'CCS2',
+    powerOutput: 30,
+    contact: '1800-209-3226',
+    address: 'Tarabai Park, Kolhapur',
+    category: 'public',
+  },
+  {
+    id: 'st-2',
+    name: 'Jio-bp pulse Charge - Rajarampuri',
+    lat: 16.6974,
+    lng: 74.2452,
+    chargerType: 'CCS2',
+    powerOutput: 60,
+    contact: '1800-891-9023',
+    address: 'Rajarampuri, Kolhapur',
+    category: 'public',
+  },
+  {
+    id: 'st-3',
+    name: 'ChargeZone - Shivaji University Area',
+    lat: 16.6781,
+    lng: 74.2562,
+    chargerType: 'Type 2',
+    powerOutput: 22,
+    contact: '1800-123-4567',
+    address: 'Shivaji University Road, Kolhapur',
+    category: 'public',
+  },
+  {
+    id: 'st-4',
+    name: 'KMC Charging Station - Rankala',
+    lat: 16.6908,
+    lng: 74.2141,
+    chargerType: 'Type 2',
+    powerOutput: 7.4,
+    contact: '0231-2540291',
+    address: 'Near Rankala Lake, Kolhapur',
+    category: 'public',
+  },
+  {
+    id: 'st-5',
+    name: 'Statiq Charging Hub - Mahadwar Road',
+    lat: 16.6961,
+    lng: 74.2272,
+    chargerType: 'CCS2',
+    powerOutput: 50,
+    contact: '1800-200-3000',
+    address: 'Mahadwar Road, Kolhapur',
+    category: 'public',
+  },
+  {
+    id: 'st-6',
+    name: 'Kodoli EV Hub - Main Chowk',
+    lat: 16.8906,
+    lng: 74.2045,
+    chargerType: 'Type 2',
+    powerOutput: 22,
+    contact: '9876543210',
+    address: 'Main Chowk, Kodoli',
+    category: 'public',
+  },
+  {
+    id: 'st-7',
+    name: 'Kodoli Home Charge - Near Bus Stand',
+    lat: 16.8850,
+    lng: 74.2010,
+    chargerType: 'AC Type 1',
+    powerOutput: 7.4,
+    contact: '9876543211',
+    address: 'Near Bus Stand, Kodoli',
+    category: 'home',
+  },
+  {
+    id: 'st-8',
+    name: 'Talsande Fast Charge Station',
+    lat: 16.8406,
+    lng: 74.2690,
+    chargerType: 'CCS2',
+    powerOutput: 50,
+    contact: '9876543212',
+    address: 'Highway Road, Talsande',
+    category: 'public',
+  },
+  {
+    id: 'st-9',
+    name: 'Talsande Village Home Charger',
+    lat: 16.8450,
+    lng: 74.2650,
+    chargerType: 'Type 2',
+    powerOutput: 11,
+    contact: '9876543213',
+    address: 'Village Center, Talsande',
+    category: 'home',
+  }
+];

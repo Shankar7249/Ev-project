@@ -1,0 +1,10 @@
+{
+  "name": "Offline EV Navigator - Kolhapur",
+  "description": "Offline-capable web application that helps EV users in Kolhapur locate nearby charging stations and navigate to them.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
